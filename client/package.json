@@ -1,0 +1,23 @@
+{
+  "name": "gtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/google-protobuf": "^3.7.2",
+    "grpc-man": "^1.6.1"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^0.6.14",
+    "@grpc/proto-loader": "^0.5.3",
+    "grpc": "^1.24.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}

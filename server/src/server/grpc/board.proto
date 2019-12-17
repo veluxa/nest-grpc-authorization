@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package board;
+
+service WorklogService {
+    rpc GetWorkmateInfos (PostId) returns (WorkmateInfo) {}
+}
+
+message PostId {
+    int32 id = 1;
+}
+
+message WorkmateInfo {
+    int32 id = 1;
+    string name = 2;
+    string nickname = 3;
+    string avatar = 4;
+}
