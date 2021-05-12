@@ -13,7 +13,7 @@
     "grpc-man": "^1.6.1"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^0.6.14",
+    "@grpc/grpc-js": "^1.1.8",
     "@grpc/proto-loader": "^0.5.3",
     "grpc": "^1.24.2",
     "ts-loader": "^6.2.1",
